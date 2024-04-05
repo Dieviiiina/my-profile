@@ -1,0 +1,171 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: georgia, serif;
+    background-color: #BAD6E0; /* Blue background color */
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #356375;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes the image round */
+}
+
+/* Profile container styles */
+.profile-container {
+    padding: 20px;
+}
+
+/* Card styles */
+.card {
+    background-color: #fff; /* White background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Main content styles */
+.main-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Styles for the Follow Me card */
+.card a i {
+    font-size: 24px; /* Increase the font size of icons */
+}
+
+/* Map container styles */
+.map-container {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Map frame styles */
+.map-frame {
+    flex: 1;
+    max-width: 600px; /* Adjust the maximum width of the map */
+    height: 400px; /* Adjust the height of the map */
+}
+
+/* Instructions styles */
+.instructions {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.instructions p {
+    font-weight: bold;
+}
+
+.instructions ol {
+    list-style-type: decimal;
+}
+
+/* Styles for the Favorite Lunch Spot card */
+.favorite-spot-card {
+    background-color: #fff; /* White background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Style for movie and reading images */
+.movie-img,
+.reading-img {
+    width: 100px; /* Adjust width of movie images */
+    height: 100px; /* Adjust height of movie images */
+    border-radius: 50%; /* Make images round */
+}
+
+/* Footer styles */
+footer {
+    background-color: #356375;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Styles for map frame */
+.map-frame iframe {
+    width: 500px; /* Adjust width as needed */
+    height: 400px; /* Adjust height as needed */
+}
+
+.map-container {
+    display: flex;
+    flex-direction: row; /* Display children elements in a row */
+    align-items: flex-start; /* Align children elements at the start of the flex container */
+}
+
+.map-frame {
+    /* Keep existing styles */
+}
+
+.instructions,
+.Why {
+    flex: 1; /* Allow both sections to expand and fill available space */
+    margin-left: 20px; /* Add some left margin for separation */
+}
+
+/* Flexbox container for movie images */
+.movie-images,
+.readings-images {
+    display: flex;
+    overflow-x: auto; /* Allow horizontal scrolling if images overflow container */
+    margin-bottom: 20px; /* Add margin bottom */
+    flex-wrap: nowrap; /* Prevent wrapping to next line */
+}
+
+/* Styles for each movie image */
+.movie,
+.readings {
+    margin-right: 10px; /* Adjust spacing between images */
+    flex: 0 0 auto; /* Prevent images from growing */
+}
+
+/* Style for movie and reading images */
+.movie-img,
+.reading-img {
+    width: 100px; /* Adjust width of movie images */
+    height: 100px; /* Adjust height of movie images */
+    border-radius: 50%; /* Make images round */
+}
+
+.instructions,
+.Why {
+    flex: 1; /* Allow both sections to expand and fill available space */
+    margin-left: 20px; /* Add some left margin for separation */
+}
+
+/* Styles for the Favorite Lunch Spot card */
+.favorite-spot-card {
+    background-color: #fff; /* White background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 100%; /* Set the width to 100% */
+}
+
